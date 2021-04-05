@@ -1,0 +1,19 @@
+.wrapper2{
+    display: grid;
+    grid-template-columns: 120px 7fr;
+    grid-template-areas: 
+    "sidebar navbar";
+    padding-bottom: 150px;
+}
+
+
+.addNewGame{
+    grid-area: games;
+}
+
+
+.side2{
+    grid-area: sidebar;
+}
+
+

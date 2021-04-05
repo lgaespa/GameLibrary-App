@@ -1,0 +1,40 @@
+.pagContainer{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  position: absolute;
+  width: auto;
+  height: 25px;
+  border-radius: 8px;
+  /* background: rgba(75, 75, 75, 0.288); */
+  background: rgba(255, 255, 255, 0.178);
+
+  cursor: pointer;
+  align-items: center;
+  padding-inline: 3px;
+  /* box-shadow: 0 0  20px 0 rgba(0, 0, 0, 0.253); */
+  border: 1px solid rgba(255, 255, 255, 0.096);
+}
+
+.pagNumber{
+  height: 25px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.pagNumber{
+  border-left: 1px solid rgba(255, 255, 255, 0.123);
+}
+.pagNumber:first-child{
+  border: 0px;
+}
+
+.pagNumber:hover{
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.459);
+  color: black
+}
