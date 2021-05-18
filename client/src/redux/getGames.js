@@ -28,7 +28,6 @@ export default function getGameReducer(state = initialState, action) {
 export const saveGames = (GamesArray) => async (dispatch) => {
 
     try {
-        // const res = await axios.get('http://localhost:3001/videogames')
         dispatch({
             type: SAVE_GAMES,
             payload: GamesArray

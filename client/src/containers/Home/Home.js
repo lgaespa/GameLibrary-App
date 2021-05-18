@@ -4,7 +4,6 @@ import axios from 'axios';
 import SideBar from '../../components/Sidebar/SideBar';
 import { saveGames, loading} from '../../redux/getGames';
 import { getGenres} from '../../redux/getGenres';
-
 import "./Home.css"
 import Games from '../../components/Games/Games';
 import SearchBar from '../../components/SearchBar/SearchBar';
@@ -26,7 +25,6 @@ const Home = () => {
     }, []);
 
     let allGames = useSelector(store => store.getGames.games)
-    let genres = useSelector(store => store.getGenres.genres)
 
 
     return (

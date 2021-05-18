@@ -7,7 +7,6 @@ import GenreFilters from '../Filters/GenreFilters';
 import "./Games.css"
 import GameFilter from '../Filters/GameFilter';
 
-
 const Games = ({ allGames }) => {
 
     //STORE
@@ -25,7 +24,7 @@ const Games = ({ allGames }) => {
     const currentGames = allGames.slice(indexOfFirstGame, indexOfLastGame);
     const currentFilter = filter.slice(indexOfFirstGame, indexOfLastGame);
 
-    const paginate = pageNumber => setCurrentPage(pageNumber);
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
     var a = 0;
 
     if (loading) {

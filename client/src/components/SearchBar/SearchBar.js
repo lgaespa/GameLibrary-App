@@ -18,10 +18,8 @@ function SearchBar() {
         if (e.key === 'Enter') {
             const getSearch = async () => {
                 dispatch(loading(true))
-                console.log("entró: " + e.target.value)
                 const res = await axios.get(`http://localhost:3001/videogames?name=${e.target.value}`)
                 dispatch(filterGames(res.data))
-                console.log("y salió: " + res.data[0].name)
                 e.target.value = ""
                 dispatch(loading(false))
                 history.push('/games')
