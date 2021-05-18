@@ -1,4 +1,4 @@
-# Individual Project - Henry Videogames
+# GameLibrary
 
 <p align="right">
   <img height="200" src="./videogame.png" />
